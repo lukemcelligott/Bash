@@ -80,7 +80,7 @@ if [[ $functionNum -eq 1 ]]; then
 		#generate the password
 		echo "Generating your password..."
 		echo "Your generated password is:"
-		< /dev/urandom tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_`{|}`' | head -c$passChar; echo #gets chars, ints, and special 			chars
+		< /dev/urandom tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_`{|}`' | head -c$passChar; echo #gets chars, ints, and special chars
 	fi
 fi
 
